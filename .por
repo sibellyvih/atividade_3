@@ -1,6 +1,7 @@
 programa {
   funcao inicio() {
-    real num1, num2, soma
+
+    real num1, num2, soma, sub
 
      escreva("Digite o primeiro número: ")
      leia(num1)
@@ -9,8 +10,9 @@ programa {
      leia(num2)
     
       soma = num1 + num2
+      sub = num1 - num2
     
       escreva("A soma dos dois números é: ", soma)        
+      escreva("A subtração dos dois números é: " ,sub)
   }
 }
-
