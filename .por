@@ -12,7 +12,7 @@ programa {
       soma = num1 + num2
       sub = num1 - num2
     
-      escreva("A soma dos dois números é: ", soma)        
+      escreva("A soma dos dois números é: ", soma , "\n")        
       escreva("A subtração dos dois números é: " ,sub)
   }
 }
